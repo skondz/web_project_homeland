@@ -1,6 +1,10 @@
-.page {
-  background-color: #2a2c2f;
-}
-.place__paragraph {
-  color: #fff;
-}
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.CSS);
+@import url(../blocks/lead.css);
+@import url(../blocks/intro.css);
+@import url(../blocks/photo-grid.css);
+@import url(../blocks/places.css);
+@import url(../blocks/cover.css);
+@import url(../blocks/footer.css);

@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-items: center;
+}
+.header__logo {
+  margin-top: 34px;
+  max-width: 270px;
+  max-height: 70px;
+}
