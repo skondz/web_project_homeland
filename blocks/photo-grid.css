@@ -1,0 +1,21 @@
+.photo-grid {
+  margin: 92px auto auto;
+  max-width: 1184px;
+  max-height: 442px;
+}
+
+.photo-grid__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 0%;
+  margin: auto;
+}
+
+.photo-grid__item {
+  width: 284px;
+  height: 209px;
+  object-fit: cover;
+  object-position: center;
+}
