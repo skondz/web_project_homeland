@@ -2,3 +2,26 @@
   margin: 92px auto auto auto;
   max-width: 987px;
 }
+.place {
+}
+
+.place_title {
+}
+
+.place__website {
+}
+.place__website-heading {
+}
+.lace__website-artist {
+}
+.place__image {
+  max-width: 460px;
+  max-height: 460px;
+  width: 460px;
+  height: 460px;
+}
+
+.place__paragraph {
+}
+.place__button {
+}

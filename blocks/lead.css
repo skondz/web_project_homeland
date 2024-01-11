@@ -1,14 +1,15 @@
 .lead {
+  margin: 0 148px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  max-width: 984px;
   justify-items: center;
   align-items: center;
-  margin: 90px auto auto;
+  padding: 0;
 }
 
 .lead__title {
-  margin: 0;
+  margin: 90px auto auto 96px;
   width: 793px;
   height: 200px;
   font-family: "Inter";
@@ -38,6 +39,7 @@
 }
 
 .lead__image {
+  margin: 64px auto auto;
   width: 984px;
   max-width: 984px;
   height: 615px;
