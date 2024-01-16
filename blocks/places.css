@@ -1,20 +1,67 @@
 .places {
-  margin: 92px auto auto auto;
-  max-width: 987px;
+  margin: 92px auto auto;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
 }
 .place {
+  display: grid;
+  margin: 0;
+  max-width: 984px;
+  max-height: 756px;
+  grid-template-columns: minmax(min-content, 460px) 1fr;
+  column-gap: 40px;
+  max-width: 987px;
+  margin-bottom: 51px;
 }
 
-.place_title {
+.place__title {
+  max-height: 152px;
+
+  font-family: "Inter";
+  font-style: bold;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  margin: 0;
+  /* or 106% */
+
+  color: #ffffff;
 }
 
 .place__website {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .place__website-heading {
+  width: 58px;
+  height: 15px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+
+  color: #aaaaaa;
 }
-.lace__website-artist {
+.place__website-artist {
+  width: 456px;
+  height: 22px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
 }
 .place__image {
+  margin: 48px 0;
   max-width: 460px;
   max-height: 460px;
   width: 460px;
@@ -22,6 +69,31 @@
 }
 
 .place__paragraph {
+  margin: 48px 0 0 0;
 }
+.place__paragraph_text {
+  margin: 0 0 25px 0;
+  max-width: ;
+  width: 484px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+
+  color: #ffffff;
+}
+
 .place__button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  position: relative;
+  background-color: rgba(2, 120, 254, 1);
+  border-radius: 0.25rem;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  padding: 0.813rem 1.25rem;
 }
