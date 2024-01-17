@@ -53,13 +53,10 @@
   height: 615px;
   mix-blend-mode: hue;
 }
-/* Rectangle 21 */
+/* __title */
 
 position: absolute;
-width: 984px;
-height: 615px;
-left: 148px;
-top: 562px;
-
-background: #000000;
-mix-blend-mode: hue;
+width: 793px;
+height: 200px;
+left: 243px;
+top: 194px;

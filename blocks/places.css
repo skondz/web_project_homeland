@@ -70,7 +70,7 @@
   color: #ffffff;
 }
 .place__image {
-  margin: 48px 0;
+  margin: 60px 0;
   max-width: 460px;
   max-height: 460px;
   width: 460px;
@@ -97,9 +97,12 @@
 }
 
 .place__button {
+  width: 355px;
+  margin: auto;
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
+  font-family: inter;
   text-align: center;
   position: relative;
   background-color: rgba(2, 120, 254, 1);
@@ -109,3 +112,30 @@
   padding: 0.813rem 1.25rem;
   grid-area: button;
 }
+
+.place__button:hover {
+  width: 355px;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: inter;
+  text-align: center;
+  position: relative;
+  background-color: #0063d2;
+  border-radius: 0.25rem;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  padding: 0.813rem 1.25rem;
+  grid-area: button;
+}
+/* Rectangle 22 */
+
+position: absolute;
+width: 256px;
+height: 48px;
+left: 148px;
+top: 724px;
+
+background: #0063d2;
+border-radius: 4px;
