@@ -2,7 +2,7 @@
   margin: 0 148px;
   display: flex;
   flex-direction: column;
-  max-width: 984px;
+  max-width: 100%;
   justify-items: center;
   align-items: center;
   padding: 0;
@@ -10,8 +10,8 @@
 
 .lead__title {
   margin: 90px auto auto 96px;
-  width: 793px;
-  height: 200px;
+  max-width: 793px;
+  max-height: 200px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -53,10 +53,48 @@
   height: 615px;
   mix-blend-mode: hue;
 }
-/* __title */
 
-position: absolute;
-width: 793px;
-height: 200px;
-left: 243px;
-top: 194px;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lead__title {
+    margin: 90px auto auto 96px;
+    max-width: 720px;
+    max-height: 200px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1;
+    text-align: center;
+    color: #ffffff;
+  }
+  .lead__subtitle {
+    max-width: 720px;
+    max-height: 72px;
+    margin: 99px auto auto;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .lead__image {
+    margin: 69px auto auto;
+    width: 984px;
+    max-width: 768px;
+    height: 480px;
+    max-height: 480px;
+    background-image: url(../images/kalegin-michail-179870-unsplash.png);
+    background-size: cover;
+  }
+  .lead__rectangle {
+    background-color: #000;
+    width: 768px;
+    height: 480px;
+    mix-blend-mode: hue;
+  }
+}

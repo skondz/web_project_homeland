@@ -50,3 +50,54 @@
 
   color: #ffffff;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro {
+    margin: 0 auto 0 24px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .intro__title {
+    margin: 92px auto auto;
+    max-width: 720px;
+    height: 232px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    /* or 107% */
+
+    color: #ffffff;
+  }
+  .intro__quote {
+    margin: 16px auto auto auto;
+    max-width: 720px;
+    max-height: 136px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+
+    color: #ffffff;
+  }
+  .intro__text {
+    margin: 42px auto auto auto;
+    max-width: 720px;
+    max-height: 182px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    /* or 26px */
+
+    color: #ffffff;
+  }
+}
