@@ -126,4 +126,20 @@
     background: #2a2c2f;
     opacity: 0.3;
   }
+  .cover__title {
+    /* __title */
+
+    width: 656px;
+    height: 76px;
+    margin: 0 0 32px;
+    font-family: "Inter";
+    font-style: "bold";
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    /* identical to box height, or 106% */
+    text-align: center;
+    z-index: 1;
+    color: #fffdfd;
+  }
 }

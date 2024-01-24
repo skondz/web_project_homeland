@@ -222,3 +222,40 @@
     grid-area: button;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places {
+    margin: 62px auto auto;
+    max-width: 320px;
+  }
+  .place {
+    display: flex;
+    flex-direction: column;
+    margin: 62px auto auto;
+    max-width: 3200px;
+  }
+  .place__title {
+    max-height: 35px;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .place__website-heading {
+    max-width: 288px;
+    max-height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 35px;
+  }
+  .place__website-artist {
+    max-width: 288px;
+    max-height: 44px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 8px;
+  }
+  .place__image {
+    margin: 30px 0 0;
+    max-width: 320px;
+    max-height: 320px;
+}
