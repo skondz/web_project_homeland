@@ -84,9 +84,7 @@
 }
 .place__paragraph_text {
   margin: 0 0 25px 0;
-  max-width: ;
   width: 484px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -134,52 +132,27 @@
   .places {
     margin: 88px auto auto;
     max-width: 720px;
-    display: flex;
-    flex-direction: column;
   }
-  .place {
-    display: grid;
-    margin: 0;
-    max-width: 720px;
 
-    grid-template-columns: minmax(min-content, 340px) 1fr;
-    grid-template-areas:
-      "title website"
-      "image paragraph"
-      "button paragraph"
-      ". paragraph";
+  .place {
+    max-width: 720px;
     column-gap: 28px;
     margin-bottom: 51px;
   }
+
   .place:last-of-type {
     margin-bottom: 0;
   }
   .place__title {
     max-height: 46px;
     max-width: 340px;
-    font-family: "Inter";
-    font-style: bold;
-    font-weight: 900;
     font-size: 42px;
     line-height: 46px;
-    margin: 0;
-    text-align: left;
-    /* or 106% */
-    position: relative;
-    color: #ffffff;
-    grid-area: title;
   }
+
   .place__website-artist {
     max-width: 295px;
     max-height: 44px;
-    margin: 0;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-
-    color: #ffffff;
   }
 
   .place__image {
@@ -188,38 +161,22 @@
     max-height: 340px;
     grid-area: image;
   }
+
   .place__paragraph {
     margin: 40px 0 0 0;
-    grid-area: paragraph;
   }
 
   .place__paragraph_text {
     margin: 0 0 14px 0;
     max-width: 352px;
-
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 163%;
 
     color: #ffffff;
   }
+
   .place__button {
     width: 315px;
-    margin: auto;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    font-family: inter;
-    text-align: center;
-    position: relative;
-    background-color: rgba(2, 120, 254, 1);
-    border-radius: 0.25rem;
-    color: rgba(255, 255, 255, 1);
-    text-decoration: none;
-    padding: 0.813rem 1.25rem;
-    grid-area: button;
   }
 }
 
@@ -258,4 +215,29 @@
     margin: 30px 0 0;
     max-width: 320px;
     max-height: 320px;
+  }
+  .place__paragraph {
+    margin: 40px 0 0 0;
+  }
+
+  .place__paragraph_text {
+    margin: 0 0 7px 0;
+    max-width: 288px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+
+    color: #ffffff;
+  }
+  .place__button {
+    width: 288px;
+
+    margin: 0 16px 0;
+    font-size: 14px;
+    line-height: 27px;
+    padding: 0.813rem 0;
+  }
 }
