@@ -126,4 +126,7 @@
     font-size: 14px;
     line-height: 16px;
   }
+  .cover__rectangle {
+    width: 321px;
+    height: 254px;
 }
