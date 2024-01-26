@@ -14,3 +14,7 @@ https://www.figma.com/file/tjwtMvCQkauaKN43QWlSsI/Web_Brief_Sprint_4_ES-%7C-De-p
 *CSS
 
 se utiliza la metodologia BEM.
+
+### Link a github pages
+
+https://skondz.github.io/web_project_homeland/

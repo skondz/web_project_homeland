@@ -12,7 +12,7 @@
 .cover__background {
   width: 100%;
   height: 100%;
-  background-image: url(../images/__background.png);
+  background-image: url(../images/background.png);
   background-size: cover;
   display: flex;
 }
@@ -98,7 +98,7 @@
   background: #2a2c2f;
   opacity: 0.8;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
   .cover {
     width: 768px;
     height: 746px;
@@ -108,7 +108,7 @@
     height: 746px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .cover {
     width: 321px;
     height: 254px;
@@ -129,4 +129,5 @@
   .cover__rectangle {
     width: 321px;
     height: 254px;
+  }
 }

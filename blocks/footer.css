@@ -1,6 +1,6 @@
 .footer {
   /* footer */
-
+  margin: 92px auto auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -10,4 +10,14 @@
   text-align: right;
 
   color: #ffffff;
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .footer {
+    margin: 88px auto auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: 64px auto auto;
+  }
 }
