@@ -107,6 +107,10 @@
     width: 768px;
     height: 746px;
   }
+  .cover__rectangle:hover {
+    width: 768px;
+    height: 746px;
+  }
 }
 @media screen and (max-width: 768px) {
   .cover {
@@ -127,6 +131,10 @@
     line-height: 16px;
   }
   .cover__rectangle {
+    width: 321px;
+    height: 254px;
+  }
+  .cover__rectangle:hover {
     width: 321px;
     height: 254px;
   }
