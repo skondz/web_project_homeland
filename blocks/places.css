@@ -127,7 +127,7 @@
   grid-area: button;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .places {
     margin: 88px auto auto;
     max-width: 720px;
@@ -179,7 +179,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .places {
     margin: 62px auto auto;
     max-width: 320px;
@@ -195,20 +195,21 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
+    margin: auto;
   }
   .place__website-heading {
     max-width: 288px;
     max-height: 15px;
     font-size: 12px;
     line-height: 15px;
-    margin-top: 35px;
+    margin: 35px auto auto;
   }
   .place__website-artist {
     max-width: 288px;
     max-height: 44px;
     font-size: 18px;
     line-height: 22px;
-    margin-top: 8px;
+    margin: 8px auto auto;
   }
   .place__image {
     margin: 30px 0 0;
@@ -220,7 +221,7 @@
   }
 
   .place__paragraph-text {
-    margin: 0 auto 7px 0;
+    margin: 0 auto 7px auto;
     max-width: 288px;
 
     font-family: "Inter";
