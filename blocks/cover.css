@@ -98,21 +98,8 @@
   background: #2a2c2f;
   opacity: 0.8;
 }
-@media screen and (min-width: 768px) and (max-width: 1280px) {
-  .cover {
-    width: 768px;
-    height: 746px;
-  }
-  .cover__rectangle {
-    width: 768px;
-    height: 746px;
-  }
-  .cover__rectangle:hover {
-    width: 768px;
-    height: 746px;
-  }
-}
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 320px) {
   .cover {
     width: 321px;
     height: 254px;
@@ -137,5 +124,19 @@
   .cover__rectangle:hover {
     width: 321px;
     height: 254px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 746px;
+  }
+  .cover__rectangle {
+    width: 768px;
+    height: 746px;
+  }
+  .cover__rectangle:hover {
+    width: 768px;
+    height: 746px;
   }
 }
