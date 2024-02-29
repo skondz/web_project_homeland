@@ -1,5 +1,5 @@
 .lead {
-  margin: 0 148px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   max-width: 100%;
@@ -9,7 +9,7 @@
 }
 
 .lead__title {
-  margin: 90px auto auto 96px;
+  margin: auto auto auto auto;
   max-width: 793px;
   max-height: 200px;
   font-family: "Inter";
@@ -54,7 +54,7 @@
   mix-blend-mode: hue;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 768px) {
   .lead__title {
     max-width: 288px;
     max-height: 88px;
@@ -79,7 +79,7 @@
     height: 200px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .lead__title {
     max-width: 720px;
     max-height: 200px;
